@@ -1,0 +1,8 @@
+# Create a text file with some content
+echo "Hello, Git!" > my_file.txt
+
+# Add the file to the staging area
+git add my_file.txt
+
+# Commit the file with a descriptive message
+git commit -m "Initial commit: Added my_file.txt"
